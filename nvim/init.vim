@@ -1,3 +1,12 @@
+" Plugin Setup --------------------------------------------------- {{{
+
+" Store plugins in the specified directory
+call plug#begin('~/.config/nvim/plugged')
+
+
+" All plugins must be listed above here
+call plug#end()
+" }}}
 
 " Leader Keys --------------------------------------------------- {{{
 
