@@ -3,6 +3,7 @@
 " Store plugins in the specified directory
 call plug#begin('~/.config/nvim/plugged')
 
+Plug 'tpope/vim-surround'
 
 " All plugins must be listed above here
 call plug#end()
