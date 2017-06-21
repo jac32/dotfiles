@@ -6,6 +6,12 @@ let maplocalleader = ","
 
 " }}}
 
+" Line Numbers -------------------------------------------------- {{{ 
+set ruler 
+set number 
+set relativenumber
+" }}}
+
 " Window Navigation --------------------------------------------- {{{
 
 " Leader and direction to move window
