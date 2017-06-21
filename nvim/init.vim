@@ -6,8 +6,11 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 
+Plug 'sjl/badwolf'
+
 " All plugins must be listed above here
 call plug#end()
+
 " }}}
 
 " Leader Keys --------------------------------------------------- {{{
