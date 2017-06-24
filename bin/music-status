@@ -1,0 +1,18 @@
+#!/bin/bash
+
+function music_status {
+	spotify status |
+	awk 'NR != 3 { print substr($0, index($0, $2)) } ' |
+	awk '
+		NR == 2 { print $0 " -" }
+		NR == 3 { print $0 }
+		NR == 4 { print "(" $0 ")" }
+	' |
+	xargs
+}
+
+if [ ! -f /usr/local/bin/spotify ]; then
+	echo "Spotify CLI missing!"
+else	
+	music_status
+fi
