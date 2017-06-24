@@ -47,6 +47,10 @@ nnoremap q[ :cprev<cr>
 nnoremap Q] :clast<cr>
 nnoremap Q[ :cfirst<cr>
 
+" Quick edit init.vim
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 " }}}
 
 " VimScript Files ----------------------------------------------- {{{
