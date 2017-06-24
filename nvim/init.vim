@@ -13,6 +13,8 @@ Plug 'sjl/badwolf'
 " All plugins must be listed above here
 call plug#end()
 
+colorscheme goodwolf
+
 " }}}
 
 " Leader Keys --------------------------------------------------- {{{
