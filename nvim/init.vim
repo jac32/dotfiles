@@ -42,10 +42,10 @@ nnoremap <leader>q :quit<cr>
 nnoremap <leader>o :only<cr>
 
 " Quickfix menu
-:nnoremap q] :cnext<cr>
-:nnoremap q[ :cprev<cr>
-:nnoremap Q] :clast<cr>
-:nnoremap Q[ :cfirst<cr>
+nnoremap q] :cnext<cr>
+nnoremap q[ :cprev<cr>
+nnoremap Q] :clast<cr>
+nnoremap Q[ :cfirst<cr>
 
 " }}}
 
