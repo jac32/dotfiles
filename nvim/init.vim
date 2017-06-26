@@ -6,6 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
 Plug 'lilydjwg/colorizer'
 
 Plug 'sjl/badwolf'
