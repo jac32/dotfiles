@@ -31,6 +31,12 @@ set number
 set relativenumber
 " }}}
 
+" Indentation --------------------------------------------------- {{{
+set expandtab
+set shiftwidth=4
+set tabstop=4
+" }}}
+
 " Window Navigation --------------------------------------------- {{{
 
 " Leader and direction to move window
