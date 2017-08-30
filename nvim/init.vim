@@ -38,7 +38,7 @@ let maplocalleader = ","
 " Line Numbers -------------------------------------------------- {{{ 
 set ruler 
 set number 
-set relativenumber
+set norelativenumber
 " }}}
 
 " Indentation --------------------------------------------------- {{{
