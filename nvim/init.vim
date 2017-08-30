@@ -3,19 +3,29 @@
 " Store plugins in the specified directory
 call plug#begin('~/.config/nvim/plugged')
 
+" Utility plugins
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'lilydjwg/colorizer'
 
-Plug 'sjl/badwolf'
+" Language plugins
+Plug 'rust-lang/rust.vim'
+
+" Themes
+Plug 'altercation/vim-colors-solarized'
 
 " All plugins must be listed above here
 call plug#end()
 
-colorscheme goodwolf
 
+" }}}
+
+" Color Scheme -------------------------------------------------- {{{
+syntax enable
+set background=light
+colorscheme solarized
 " }}}
 
 " Leader Keys --------------------------------------------------- {{{
