@@ -9,6 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'lilydjwg/colorizer'
+Plug '/usr/local/opt/fzf'
 
 " Language plugins
 Plug 'rust-lang/rust.vim'
@@ -25,7 +26,7 @@ call plug#end()
 " Color Scheme -------------------------------------------------- {{{
 syntax enable
 set background=light
-colorscheme solarized
+"colorscheme solarized
 " }}}
 
 " Leader Keys --------------------------------------------------- {{{
@@ -71,6 +72,10 @@ nnoremap Q[ :cfirst<cr>
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+" }}}
+
+" Fuzzy Finder ----------------------------------------------- {{{
+nnoremap <leader>/ :FZF<cr>
 " }}}
 
 " VimScript Files ----------------------------------------------- {{{
